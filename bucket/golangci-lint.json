@@ -1,0 +1,33 @@
+{
+    "homepage": "https://golangci.com",
+    "description": "Linters Runner for Go. 5x faster than gometalinter. Nice colored output. Can report only new issues. Fewer false-positives. Yaml/toml config.",
+    "license": "MIT",
+    "version": "1.23.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.23.1/golangci-lint-1.23.1-windows-amd64.zip",
+            "hash": "04e2e280e23f8c2c269b7fc1d27bcc32aac856602aacefd94f763b5572a48475"
+        },
+        "32bit": {
+            "url": "https://github.com/golangci/golangci-lint/releases/download/v1.23.1/golangci-lint-1.23.1-windows-386.zip",
+            "hash": "3d9765e9902c1209236d6a763e686b26510c02529bc8b77fac7ed0746073679a"
+        }
+    },
+    "bin": "golangci-lint.exe",
+    "checkver": {
+        "github": "https://github.com/golangci/golangci-lint"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/golangci/golangci-lint/releases/download/v$version/golangci-lint-$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/golangci/golangci-lint/releases/download/v$version/golangci-lint-$version-windows-386.zip"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/task_checksums.txt"
+        }
+    }
+}
