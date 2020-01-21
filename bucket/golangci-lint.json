@@ -6,11 +6,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/golangci/golangci-lint/releases/download/v1.23.1/golangci-lint-1.23.1-windows-amd64.zip",
-            "hash": "04e2e280e23f8c2c269b7fc1d27bcc32aac856602aacefd94f763b5572a48475"
+            "hash": "04e2e280e23f8c2c269b7fc1d27bcc32aac856602aacefd94f763b5572a48475",
+            "extract_dir": "golangci-lint-1.23.1-windows-amd64"
         },
         "32bit": {
             "url": "https://github.com/golangci/golangci-lint/releases/download/v1.23.1/golangci-lint-1.23.1-windows-386.zip",
-            "hash": "3d9765e9902c1209236d6a763e686b26510c02529bc8b77fac7ed0746073679a"
+            "hash": "3d9765e9902c1209236d6a763e686b26510c02529bc8b77fac7ed0746073679a",
+            "extract_dir": "golangci-lint-1.23.1-windows-386"
         }
     },
     "bin": "golangci-lint.exe",
@@ -20,10 +22,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/golangci/golangci-lint/releases/download/v$version/golangci-lint-$version-windows-amd64.zip"
+                "url": "https://github.com/golangci/golangci-lint/releases/download/v$version/golangci-lint-$version-windows-amd64.zip",
+                "ectract_dir": "golangci-lint-$version-windows-amd64"
             },
             "32bit": {
-                "url": "https://github.com/golangci/golangci-lint/releases/download/v$version/golangci-lint-$version-windows-386.zip"
+                "url": "https://github.com/golangci/golangci-lint/releases/download/v$version/golangci-lint-$version-windows-386.zip",
+                "ectract_dir": "golangci-lint-$version-windows-386"
             }
         },
         "hash": {
