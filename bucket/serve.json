@@ -1,0 +1,22 @@
+{
+    "homepage": "https://github.com/paulvarache/serve",
+    "description": "",
+    "license": "GPLv2",
+    "version": "0.0.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/paulvarache/serve/releases/download/0.0.1/serve_windows_amd64.zip"
+        }
+    },
+    "bin": "serve.exe",
+    "checkver": {
+        "github": "https://github.com/paulvarache/serve"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/paulvarache/serve/releases/download/$version/serve_windows_amd64.zip"
+            }
+        }
+    }
+}
