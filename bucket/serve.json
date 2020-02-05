@@ -5,7 +5,8 @@
     "version": "0.0.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/paulvarache/serve/releases/download/0.0.1/serve_windows_amd64.zip"
+            "url": "https://github.com/paulvarache/serve/releases/download/0.0.1/serve_windows_amd64.zip",
+            "hash": "42adb8b69ebc5c676c0b133dbd26e0cc8779972e4d92a233e37618a4fe30d727"
         }
     },
     "bin": "serve.exe",
