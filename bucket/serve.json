@@ -2,11 +2,11 @@
     "homepage": "https://github.com/paulvarache/serve",
     "description": "",
     "license": "GPLv2",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/paulvarache/serve/releases/download/0.0.1/serve_windows_amd64.zip",
-            "hash": "42adb8b69ebc5c676c0b133dbd26e0cc8779972e4d92a233e37618a4fe30d727"
+            "url": "https://github.com/paulvarache/serve/releases/download/0.0.2/serve_windows_amd64.zip",
+            "hash": "f7c134ac2470a115be6cb74125a31a66ace2129fb25e18a1fe1ab1abb16f6f82"
         }
     },
     "bin": "serve.exe",
