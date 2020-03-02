@@ -1,0 +1,12 @@
+{
+    "homepage": "https://developers.cloudflare.com/access/cli/installing-cli-tool",
+    "description": "",
+    "license": "GPLv2",
+    "version": "2020.2.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://bin.equinox.io/c/VdrWdbjqyF/cloudflared-stable-windows-amd64.zip"
+        }
+    },
+    "bin": "cloudflared.exe"
+}
